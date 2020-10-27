@@ -31,6 +31,7 @@ h2, h3, h4, h5 {
         z-index: 1000;
 }
 
+
 .navbar-brand {
         display: block;
         margin: auto;
@@ -46,6 +47,10 @@ h2, h3, h4, h5 {
 .navbar-nav {
         margin: auto;
 }
+.navbar-light .navbar-nav .nav-link {
+        color: #c00000;
+
+}
 
 .nav-link {
         text-decoration: none;
@@ -60,6 +65,10 @@ h2, h3, h4, h5 {
         background-color: #c00000;
         transition: 1s;
         border: 1px solid #c00000;
+}
+
+button {
+        margin-top: 20px;
 }
 
 
@@ -80,6 +89,8 @@ i {
         color: #fff;
         background-color: #c00000;
         padding: 8px 18px;
+        margin-bottom: 60px;
+
 }
 
 
@@ -191,3 +202,4 @@ i {
         width: 300px;
         margin: auto;
 }
+
