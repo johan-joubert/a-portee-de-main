@@ -12,6 +12,10 @@ font-familly : - titre principaux : font-family: 'Noto Serif', serif;
 
 /*=======GENERAL========*/
 
+html {
+        scroll-behavior: smooth;
+}
+
 h1 {
         font-family: 'Noto Serif', serif;    
 }
@@ -26,9 +30,9 @@ h2, h3, h4, h5 {
 /*nav*/
 
 .navbar {
-        background-color: rgba(64, 64, 64, 0.1);
-        top: 0;
-        z-index: 1000;
+        z-index: 2000;
+        transition: 0.5s;
+        box-shadow: 0 4px 2px -2px rgba(112, 112, 112, 0.3);
 }
 
 
@@ -56,7 +60,7 @@ h2, h3, h4, h5 {
         text-decoration: none;
         margin: 0 30px;
         color: #c00000;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         border-radius: 10px;
 }
 
@@ -64,7 +68,6 @@ h2, h3, h4, h5 {
         color: #fff;
         background-color: #c00000;
         transition: 1s;
-        border: 1px solid #c00000;
 }
 
 button {
@@ -119,11 +122,24 @@ i {
         top: 10%;
 }
 
-/* .bloc-description-carousel {
-        margin-top: 100px;
-} */
+.carousel-caption h3 {
+        margin-bottom: 120px;
+        font-weight: 900;
+}
 
-/*promo*/
+.carousel-caption p {
+        font-size: 1.8em;
+        font-weight: bold;
+}
+
+.carousel-caption a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #c00000;
+        padding: 5px 70px;
+        border-radius: 20px;
+}
+
 
 .promo {
         background-color: #c00000;
@@ -168,6 +184,8 @@ i {
 
 /*=======MAIN=========*/
 
+/*bloc nouveauté*/
+
 .contain-new {
         margin-top: 40px;
 }
@@ -203,3 +221,95 @@ i {
         margin: auto;
 }
 
+/*bloc personnalisation */
+
+.contain-perso {
+        background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4)),url('../images/background-3009939_1920.jpg');
+}
+
+.contain-personnalise {
+        margin-top: 60px;
+}
+
+.bloc-perso {
+        margin: auto;
+}
+
+.bloc-perso p, h3 {
+        width: 400px;
+        margin: auto;
+}
+
+.bloc-perso h3 {
+        margin-bottom: 10px;
+}
+
+.bloc-perso a {
+        display: block;
+        text-align: center;
+        width: 200px;
+        margin: auto;
+        text-decoration: none;
+        color: #fff;
+        background-color: #767676;
+        padding: 5px 12px;
+        border-radius: 20px;
+}
+
+.bloc-moufle-lucas img {
+        display: block;
+        width: 200px;
+        margin: auto;
+}
+
+/*=======FOOTER=========*/
+
+footer .container {
+        margin-top: 60px;
+}
+
+.bloc-social-footer {
+        margin: auto;
+        width: 200px;
+        text-align: center;
+}
+
+.bloc-social-footer img {
+        display: inline-block;
+}
+
+.copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.bloc-logo-dore {
+        text-align: center;
+}
+
+.bloc-logo-dore img {
+        display: block;
+        margin: auto;
+}
+
+.bloc-logo-dore span {
+        color: #baa56f;
+        font-weight: bold;
+}
+
+
+
+/*CSS AVEC JS*/
+
+/*nav white scroll*/
+
+.navbar.scroll {
+        background-color: rgb(255, 255, 255);
+        transition: 2s;
+        box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
