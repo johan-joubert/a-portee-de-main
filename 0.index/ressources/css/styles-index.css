@@ -4,7 +4,190 @@ color : #c00000
         #baa56f
         #404040
         
+        
 font-familly : - titre principaux : font-family: 'Noto Serif', serif;
                - titre secondaire : font-family: 'Dosis', sans-serif;
 
 */
+
+/*=======GENERAL========*/
+
+h1 {
+        font-family: 'Noto Serif', serif;    
+}
+
+h2, h3, h4, h5 {
+        font-family: 'Dosis', sans-serif; 
+}
+ 
+
+/*=======HEADER=========*/
+
+/*nav*/
+
+.navbar {
+        background-color: rgba(64, 64, 64, 0.1);
+        top: 0;
+        z-index: 1000;
+}
+
+.navbar-brand {
+        display: block;
+        margin: auto;
+        width: 70px;
+}
+
+#title-logo {
+        font-size: 1em;
+        color: #c00000;
+        font-family: 'Noto Serif', serif;
+}
+
+.navbar-nav {
+        margin: auto;
+}
+
+.nav-link {
+        text-decoration: none;
+        margin: 0 30px;
+        color: #c00000;
+        border: 1px solid black;
+        border-radius: 10px;
+}
+
+.nav-link:hover {
+        color: #fff;
+        background-color: #c00000;
+        transition: 1s;
+        border: 1px solid #c00000;
+}
+
+
+/*top header contact*/
+
+#bloc-contact {
+        position: absolute;
+        top: 0;
+        right: 0;
+}
+
+i {
+        color: red;
+}
+
+#top-header-contact {
+        text-decoration: none;
+        color: #fff;
+        background-color: #c00000;
+        padding: 8px 18px;
+}
+
+
+
+/*fil d'ariane*/
+
+.fil-ariane {
+        text-align: center;
+}
+
+/*slogan*/
+
+.title-slogan {
+        text-align: center;
+        color: #baa56f;
+        font-family: 'Noto Serif', serif;
+        font-weight: bold;
+}
+
+
+/*carousel*/
+
+ .carousel-caption{
+        right: 0;
+        left:-60%;
+        top: 10%;
+}
+
+/* .bloc-description-carousel {
+        margin-top: 100px;
+} */
+
+/*promo*/
+
+.promo {
+        background-color: #c00000;
+        color: #fff;
+}
+
+.bloc-offre {
+        text-align: center;
+        padding: 30px;
+}
+
+.bloc-offre h3 {
+        font-weight: bold;
+}
+
+.bloc-offre a {
+        display: block;
+        width: 200px;
+        margin: auto;
+        text-decoration: none;
+        color: #c00000;
+        background-color: #baa56f;
+        padding: 5px 12px;
+        border-radius: 20px;
+}
+
+.bloc-reduc {
+        text-align: center;
+        margin: auto;
+}
+
+.bloc-reduc p {
+        font-size: 2em;
+        font-weight: 600;
+}
+
+.bloc-reduc span {
+        font-size: 1.2em;
+}
+
+
+
+/*=======MAIN=========*/
+
+.contain-new {
+        margin-top: 40px;
+}
+
+.bloc-new {
+        margin: auto;
+}
+
+.bloc-new p, h3 {
+        width: 400px;
+        margin: auto;
+}
+
+.bloc-new h3 {
+        margin-bottom: 10px;
+}
+
+.bloc-new a {
+        display: block;
+        text-align: center;
+        width: 200px;
+        margin: auto;
+        text-decoration: none;
+        color: #fff;
+        background-color: #767676;
+        padding: 5px 12px;
+        border-radius: 20px;
+}
+
+.bloc-dog img {
+        display: block;
+        width: 300px;
+        margin: auto;
+}
