@@ -101,15 +101,72 @@ button {
 /*fil d'ariane*/
 
 .fil-ariane {
-        text-align: left;
+        text-align: center;
 }
 
 
+/*=======MAIN=========*/
 
+main h1 {
+        color: #baa56f;
+        font-weight: 900;
+        margin-bottom: 40px;
+}
 
+main p {
+        text-align: center;
+}
 
+.container-background {
+        background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4)),url('../images/red-313309_1280.jpg');
+        background-position: center;
+        background-size: cover;
+        animation: clouds_animation 30s linear infinite;
+}
 
+@keyframes clouds_animation {
+        0% {background-position: 2000 0;}
+        100% {background-position: -0px 0;}
+}
 
+.container {
+        margin-top : 60px;
+        padding: 10px;
+}
+
+.container h2 {
+        text-align: center;
+        color: #fff;
+}
+
+.container-background p {
+        text-align: left;
+        color: #fff;
+}
+
+.container span {
+        font-style: italic;
+        font-weight: 700;
+}
+
+.container img {
+        display: block;
+        margin: auto;
+}
+
+.container a {
+        display: block;
+        width: 200px;
+        background-color: #c00000;
+        color: #fff;
+        margin: auto;
+        border-radius: 20px;
+        padding: 5px;
+}
+
+.container a:hover{
+        text-decoration: none;
+}
 
 
 
