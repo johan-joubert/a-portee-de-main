@@ -99,11 +99,85 @@ i {
 /*fil d'ariane*/
 
 .fil-ariane {
+        text-align: left;
+}
+
+
+/*=======MAIN=========*/
+
+
+h1 {
         text-align: center;
+        font-weight: 900;
+        color: #baa56f;
+        margin-bottom: 40px;
+}
+
+main a {
+        display: block;
+        width: 200px;
+        padding: 5px 20px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #c00000;
+        color: #fff;
+        margin: auto;
+        border-radius: 20px;
+        transition: 0.5s;
+}
+
+main a:hover {
+        text-decoration: none;
+        color: #baa56f;
+        transition: 0.5s;
+        transform: scale(1.1);
 }
 
 
 
+
+
+
+/*=======FOOTER=========*/
+
+footer {
+        box-shadow: 0 -2px 2px 2px rgba(112, 112, 112, 0.3);
+}
+
+footer .container {
+        margin-top: 60px;
+        padding-top: 15px;
+}
+
+.bloc-social-footer {
+        margin: auto;
+        width: 200px;
+        text-align: center;
+}
+
+.bloc-social-footer img {
+        display: inline-block;
+}
+
+.copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.bloc-logo-dore {
+        text-align: center;
+}
+
+.bloc-logo-dore img {
+        display: block;
+        margin: auto;
+}
+
+.bloc-logo-dore span {
+        color: #baa56f;
+        font-weight: bold;
+}
 
 
 
@@ -114,9 +188,9 @@ i {
 
 .navbar.scroll {
         background-color: rgb(255, 255, 255);
-        transition: 2s;
+        transition: 1s;
         box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
-        position: fixed;
+        position: sticky;
         top: 0;
         width: 100%;
     }
