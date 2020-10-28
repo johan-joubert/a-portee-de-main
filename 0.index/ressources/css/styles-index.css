@@ -31,6 +31,20 @@ a {
 
 /*=======HEADER=========*/
 
+/*promo*/
+
+.promo {
+        background-color: #c00000;
+        color: #fff;
+}
+
+.promo a{
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: #fff;
+}
+
 /*nav*/
 
 .navbar {
@@ -47,8 +61,9 @@ a {
 }
 
 #title-logo {
-        font-size: 1em;
-        color: #c00000;
+        font-size: 1.6em;
+        font-weight: 900;
+        color: #baa56f;
         font-family: 'Noto Serif', serif;
 }
 
@@ -77,6 +92,23 @@ button {
         margin-top: 20px;
 }
 
+.red-box {
+        background-color: #c00000;
+        color: #fff;
+        margin: auto;
+        padding: 10px 20px;
+        border-radius: 10px;
+}
+
+.red-box:hover {
+        background-color: none;
+        text-decoration: none;
+        color: #fff;
+}
+
+.link-social {
+        margin: 5px 10px;
+}
 
 /*top header contact*/
 
@@ -144,44 +176,7 @@ i {
 }
 
 
-.promo {
-        background-color: #c00000;
-        color: #fff;
-}
 
-.bloc-offre {
-        text-align: center;
-        padding: 30px;
-}
-
-.bloc-offre h3 {
-        font-weight: bold;
-}
-
-.bloc-offre a {
-        display: block;
-        width: 200px;
-        margin: auto;
-        text-decoration: none;
-        color: #c00000;
-        background-color: #baa56f;
-        padding: 5px 12px;
-        border-radius: 20px;
-}
-
-.bloc-reduc {
-        text-align: center;
-        margin: auto;
-}
-
-.bloc-reduc p {
-        font-size: 2em;
-        font-weight: 600;
-}
-
-.bloc-reduc span {
-        font-size: 1.2em;
-}
 
 
 
@@ -228,7 +223,17 @@ i {
 
 .contain-perso {
         background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4)),url('../images/background-3009939_1920.jpg');
+        color: #fff;
+        background-position: center;
+        background-size: cover;
+        animation: clouds_animation 40s linear infinite;
 }
+
+@keyframes clouds_animation {
+        0% {background-position: 2000 0;}
+        100% {background-position: -0px 0;}
+}
+
 
 .contain-personnalise {
         margin-top: 60px;
@@ -318,7 +323,7 @@ footer .container {
         background-color: rgb(255, 255, 255);
         transition: 2s;
         box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
-        position: sticky;
+        position: fixed;
         top: 0;
         width: 100%;
     }

@@ -149,6 +149,16 @@ form a {
         text-align: right;
 }
 
+main p {
+        margin: auto;
+}
+
+main img {
+        display: block;
+        margin: 30px auto;
+        width: 300px;
+}
+
 
 
 /*=======FOOTER=========*/

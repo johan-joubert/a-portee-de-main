@@ -10,50 +10,57 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>        
         <!--link google font-->
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!--link css-->
         <link rel="stylesheet" href="ressources/css/styles-index.css">
 
         <title>Accueil | A portée de main</title>
     </head>
+
     <body>
 
-      <nav class="navbar navbar-expand-lg navbar-light ">
-        <div class="bloc-logo">
-          <a class="navbar-brand" href="#"><img src="ressources/images/logos-a-portee-de-main/logo-rouge.png" alt="logo" width="50"></a>
-          <h1 id="title-logo">A portée de mains</h1>    
+      <header>
+        <div class="promo">
+
+          <div class="container">
+
+              <div class="row">
+
+                <div class="col-md-12">
+                  <a href="../2.les-produits/les-produits.html">Offre hivernale : -30% sur l'achat de deux paires</a>
+                </div>
+
+              </div>
+          </div>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="../1.qui-sommes-nous/qui-sommes-nous.html">Qui sommes-nous ?</a>
-            <a class="nav-link" href="../2.les-produits/les-produits.html">Les produits</a>
-            <a class="nav-link" href="../3.les-marques/les-marques.html">Les marques</a>
-            <a class="nav-link" href="../4.qualite/qualite.html">Qualité</a>
-            <a class="nav-link" href="../5.personnalisation/personnalisation.html">Personnalisation</a>
-        </div>
-        </div>
-      </nav>
-
-        <header>
-                   
-                    
-
-                    <div id="bloc-contact">
-                        <img src="ressources/images/logos-reseaux-sociaux/logo-facebook.png" alt="facebook" width="30">
-                        <img src="ressources/images/logos-reseaux-sociaux/logo-instagram.png" alt="facebook" width="45">
-
-                        <a href="#" id="top-header-contact">contact</a>
-                    </div>
 
 
-                      <div class="fil-ariane">
-                        <p>Accueil</p>
-                      </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="bloc-logo">
+            <a class="navbar-brand" href="#"><img src="ressources/images/logos-a-portee-de-main/logo-rouge.png" alt="logo" width="50"></a>
+            <h1 id="title-logo">A portée de mains</h1>    
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="../1.qui-sommes-nous/qui-sommes-nous.html">Qui sommes-nous ?</a>
+              <a class="nav-link" href="../2.les-produits/les-produits.html">Les produits</a>
+              <a class="nav-link" href="../3.les-marques/les-marques.html">Les marques</a>
+              <a class="nav-link" href="../4.qualite/qualite.html">Qualité</a>
+              <a class="nav-link" href="../5.personnalisation/personnalisation.html">Personnalisation</a>
+              <a class="link red-box" href="../6.contact/contact.html">Contact</a>
+              <div>
+                <a class="link-facebook" href="../6.contact/contact.html"><img src="ressources/images/logos-reseaux-sociaux/logo-facebook.png" alt="facebook" width="30" class="link-social"></a>
+                <a class="link-instagram" href="../6.contact/contact.html"><img src="ressources/images/logos-reseaux-sociaux/logo-instagram.png" alt="facebook" width="45" class="link-social"></a>
+              </div>
+          </div>
+          </div>
+        </nav>
 
-                      <h2 class="title-slogan">Le nouveau souffle des moufles</h2>
-
+        <!--CAROUSEL-->
                       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="3000">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -106,30 +113,6 @@
                                 </div>                            
                               </div>
                           </div>
-                        </div>
-                      </div>
-
-                      <div class="promo">
-
-                        <div class="container">
-
-                            <div class="row">
-
-                                <div class="col-md-6 bloc-offre">
-
-                                    <h3>Offre hivernale :</h3>
-
-                                    <a href="#">Découvrir l'offre</a>
-
-                                </div>
-
-                                <div class="col-md-6 bloc-reduc">
-
-                                    <p><span>-30%</span> pour l'achat de 2 paires</p>
-                                    
-                                </div>
-
-                            </div>
                         </div>
                       </div>
 
@@ -220,6 +203,13 @@
 
         </footer>
 
+        <script type='text/javascript'>
+          $(document).ready(function() {
+               $('.carousel').carousel({
+                   interval: 2000
+               })
+          });    
+      </script>
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
