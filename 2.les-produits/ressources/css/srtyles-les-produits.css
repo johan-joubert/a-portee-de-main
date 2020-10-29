@@ -109,7 +109,13 @@ button {
 /*fil d'ariane*/
 
 .fil-ariane {
-        text-align: left;
+        text-align: center;
+        margin-bottom: 40px;
+}
+
+.fil-ariane a {
+        text-decoration: none;
+        color: #000;
 }
 
 

@@ -122,11 +122,17 @@ button {
         text-align: center;
 }
 
+.fil-ariane a {
+        text-decoration: none;
+        color: #000;
+}
+
 /*=======MAIN=========*/
 
 main h1 {
         color: #baa56f;
         font-weight: 900;
+        margin-top: 40px;
         margin-bottom: 40px;
 }
 
@@ -183,6 +189,16 @@ main p {
 
 .container a:hover{
         text-decoration: none;
+}
+
+.contain-nseg p {
+        text-align: right;
+        margin: auto;
+}
+
+.contain-nseg a {
+        margin: 0;
+        background-color: transparent;
 }
 
 
@@ -244,3 +260,11 @@ footer .container {
         top: 0;
         width: 100%;
     }
+
+    @media screen and (max-width: 992px) {
+        .container img {
+                display: block;
+                margin: 30px auto;
+        }
+        
+    } 

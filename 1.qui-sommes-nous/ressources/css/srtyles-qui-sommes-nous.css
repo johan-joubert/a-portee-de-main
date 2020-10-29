@@ -111,31 +111,16 @@ button {
 }
 
 
-/*top header contact*/
-
-#bloc-contact {
-        position: absolute;
-        top: 0;
-        right: 0;
-}
-
-i {
-        color: red;
-}
-
-#top-header-contact {
-        text-decoration: none;
-        color: #fff;
-        background-color: #c00000;
-        padding: 8px 28px;
-        margin-bottom: 60px;
-
-}
 
 /*fil d'ariane*/
 
 .fil-ariane {
         text-align: center;
+}
+
+.fil-ariane a {
+        text-decoration: none;
+        color: #000;
 }
 
 
@@ -237,4 +222,15 @@ footer .container {
         position: fixed;
         top: 0;
         width: 100%;
-    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+        .team img{
+                margin: 30px auto;
+                width: 300px;
+                display: block;
+        }
+
+}
