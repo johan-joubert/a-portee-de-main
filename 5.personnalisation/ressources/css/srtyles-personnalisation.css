@@ -33,6 +33,20 @@ a {
 
 /*=======HEADER=========*/
 
+/*promo*/
+
+.promo {
+        background-color: #c00000;
+        color: #fff;
+}
+
+.promo a{
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: #fff;
+}
+
 /*nav*/
 
 .navbar {
@@ -42,8 +56,6 @@ a {
 }
 
 
-
-
 .navbar-brand {
         display: block;
         margin: auto;
@@ -51,8 +63,9 @@ a {
 }
 
 #title-logo {
-        font-size: 1em;
-        color: #c00000;
+        font-size: 1.6em;
+        font-weight: 900;
+        color: #baa56f;
         font-family: 'Noto Serif', serif;
 }
 
@@ -81,39 +94,29 @@ button {
         margin-top: 20px;
 }
 
-
-/*top header contact*/
-
-#bloc-contact {
-        position: absolute;
-        top: 0;
-        right: 0;
+.red-box {
+        background-color: #c00000;
+        color: #fff;
+        margin: auto;
+        padding: 10px 20px;
+        border-radius: 10px;
 }
 
-
-#top-header-contact {
+.red-box:hover {
+        background-color: none;
         text-decoration: none;
         color: #fff;
-        background-color: #c00000;
-        padding: 8px 28px;
-        margin-bottom: 60px;
-
 }
+
+.link-social {
+        margin: 5px 10px;
+}
+
 
 /*fil d'ariane*/
 
 .fil-ariane {
-        text-align: left;
-        margin: auto;
-        width: 500px;
-        display: flex;
-        justify-content: center;
-}
-
-.fil-ariane a{
-        display: block;
         text-align: center;
-
 }
 
 

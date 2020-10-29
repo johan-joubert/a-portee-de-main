@@ -110,27 +110,36 @@ button {
         margin: 5px 10px;
 }
 
-/*top header contact*/
 
-#bloc-contact {
-        position: absolute;
-        top: 0;
-        right: 0;
-}
+/*fil d'ariane*/
 
-i {
-        color: red;
-}
-
-#top-header-contact {
+.fil-ariane {
+        text-align: center;
         text-decoration: none;
-        color: #fff;
-        background-color: #c00000;
-        padding: 8px 28px;
-        margin-bottom: 60px;
-
+        color: #767676;
 }
 
+/*=======MAIN=========*/
+
+main h1 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #baa56f;
+        font-weight: 900;
+}
+
+.submit-btn {
+        background-color: #c00000;
+        color: #fff;
+        border: none;
+        padding: 5px 25px;
+        margin: auto;
+        border-radius: 20px;
+}
+
+address span {
+        font-weight: bold;
+}
 
 
 
@@ -179,6 +188,8 @@ footer .container {
 
 
 
+
+
 /*CSS AVEC JS*/
 
 /*nav white scroll*/
@@ -187,7 +198,7 @@ footer .container {
         background-color: rgb(255, 255, 255);
         transition: 2s;
         box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
-        position: sticky;
+        position: fixed;
         top: 0;
         width: 100%;
     }

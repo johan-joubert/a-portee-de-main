@@ -110,28 +110,6 @@ button {
         margin: 5px 10px;
 }
 
-/*top header contact*/
-
-#bloc-contact {
-        position: absolute;
-        top: 0;
-        right: 0;
-}
-
-i {
-        color: red;
-}
-
-#top-header-contact {
-        text-decoration: none;
-        color: #fff;
-        background-color: #c00000;
-        padding: 8px 28px;
-        margin-bottom: 60px;
-
-}
-
-
 
 /*fil d'ariane*/
 
@@ -151,30 +129,23 @@ i {
 
 /*carousel*/
 
- .carousel-caption{
-        right: 0;
-        left:-60%;
-        top: 10%;
-}
-
-.carousel-caption h3 {
-        margin-bottom: 120px;
-        font-weight: 900;
+.carousel-caption h2 {
+        font-weight: 700;
+        font-size: 3em;
 }
 
 .carousel-caption p {
-        font-size: 1.8em;
-        font-weight: bold;
+        font-size: 2em;
+
 }
 
 .carousel-caption a {
+        background-color: #c00000;
         text-decoration: none;
         color: #fff;
-        background-color: #c00000;
-        padding: 5px 70px;
+        padding: 8px 95px;
         border-radius: 20px;
 }
-
 
 
 
@@ -226,7 +197,7 @@ i {
         color: #fff;
         background-position: center;
         background-size: cover;
-        animation: clouds_animation 40s linear infinite;
+        animation: clouds_animation 30s linear infinite;
 }
 
 @keyframes clouds_animation {

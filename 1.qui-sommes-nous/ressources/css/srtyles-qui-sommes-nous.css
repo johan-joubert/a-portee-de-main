@@ -226,7 +226,7 @@ footer .container {
         background-color: rgb(255, 255, 255);
         transition: 1s;
         box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
-        position: sticky;
+        position: fixed;
         top: 0;
         width: 100%;
     }
