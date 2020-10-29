@@ -169,6 +169,13 @@ main a:hover {
         transform: scale(1.1);
 }
 
+.contain-recycle {
+        margin-top: 100px;
+}
+
+.contain-recycle a {
+        background-color: transparent;
+}
 
 
 
@@ -199,6 +206,7 @@ footer .container {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 0.8em;
 }
 
 .bloc-logo-dore {

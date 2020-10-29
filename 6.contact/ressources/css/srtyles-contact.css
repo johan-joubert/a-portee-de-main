@@ -170,6 +170,7 @@ footer .container {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 0.8em;
 }
 
 .bloc-logo-dore {
