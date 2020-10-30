@@ -1,0 +1,270 @@
+/* graphical charter
+
+color : #c00000
+        #baa56f
+        #404040
+        
+        
+font-familly : - titre principaux : font-family: 'Noto Serif', serif;
+               - titre secondaire : font-family: 'Dosis', sans-serif;
+
+*/
+
+/*=======GENERAL========*/
+
+html {
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+}
+
+h1 {
+        font-family: 'Noto Serif', serif; 
+        text-align: center;   
+}
+
+h2, h3, h4, h5 {
+        font-family: 'Dosis', sans-serif; 
+}
+
+a {
+        text-align: center;
+}
+
+/*=======HEADER=========*/
+
+/*promo*/
+
+.promo {
+        background-color: #c00000;
+        color: #fff;
+}
+
+.contain a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        width: 500px;
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+}
+
+/*nav*/
+
+.navbar {
+        z-index: 2000;
+        transition: 2s;
+        box-shadow: 0 4px 2px -2px rgba(112, 112, 112, 0.3);
+}
+
+
+.navbar-brand {
+        display: block;
+        margin: auto;
+        width: 70px;
+}
+
+#title-logo {
+        font-size: 1.6em;
+        font-weight: 900;
+        color: #baa56f;
+        font-family: 'Noto Serif', serif;
+}
+
+.navbar-nav {
+        margin: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+        color: #c00000;
+
+}
+
+.nav-link {
+        text-decoration: none;
+        margin: 0 30px;
+        color: #c00000;
+        border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+        background-color: #c00000;
+        transition: 1s;
+}
+
+button {
+        margin-top: 20px;
+}
+
+.red-box {
+        background-color: #c00000;
+        color: #fff;
+        margin: auto;
+        padding: 10px 20px;
+        border-radius: 10px;
+}
+
+.red-box:hover {
+        background-color: none;
+        text-decoration: none;
+        color: #fff;
+}
+
+.link-social {
+        margin: 5px 10px;
+}
+
+
+/*fil d'ariane*/
+
+.fil-ariane {
+        text-align: center;
+}
+
+.fil-ariane a {
+        text-decoration: none;
+        color: #000;
+}
+
+/*=======MAIN=========*/
+
+main h1 {
+        color: #baa56f;
+        font-weight: 900;
+        margin-top: 40px;
+        margin-bottom: 40px;
+}
+
+main p {
+        text-align: center;
+}
+
+.container-background {
+        background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4)),url('../images/red-313309_1280.jpg');
+        background-position: center;
+        background-size: cover;
+        animation: clouds_animation 30s linear infinite;
+}
+
+@keyframes clouds_animation {
+        0% {background-position: 2000 0;}
+        100% {background-position: -0px 0;}
+}
+
+.container {
+        margin-top : 60px;
+        padding: 10px;
+}
+
+.container h2 {
+        text-align: center;
+        color: #fff;
+}
+
+.container-background p {
+        text-align: left;
+        color: #fff;
+}
+
+.container span {
+        font-style: italic;
+        font-weight: 700;
+}
+
+.container img {
+        display: block;
+        margin: auto;
+}
+
+.container a {
+        display: block;
+        width: 200px;
+        background-color: #c00000;
+        color: #fff;
+        margin: auto;
+        border-radius: 20px;
+        padding: 5px;
+}
+
+.container a:hover{
+        text-decoration: none;
+}
+
+.contain-nseg p {
+        text-align: right;
+        margin: auto;
+}
+
+.contain-nseg a {
+        margin: 0;
+        background-color: transparent;
+}
+
+
+
+/*=======FOOTER=========*/
+
+footer {
+        box-shadow: 0 -2px 2px 2px rgba(112, 112, 112, 0.3);
+}
+
+footer .container {
+        margin-top: 60px;
+        padding-top: 15px;
+}
+
+.bloc-social-footer {
+        margin: auto;
+        width: 200px;
+        text-align: center;
+}
+
+.bloc-social-footer img {
+        display: inline-block;
+}
+
+.copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+}
+
+.bloc-logo-dore {
+        text-align: center;
+}
+
+.bloc-logo-dore img {
+        display: block;
+        margin: auto;
+}
+
+.bloc-logo-dore span {
+        color: #baa56f;
+        font-weight: bold;
+}
+
+
+
+
+/*CSS AVEC JS*/
+
+/*nav white scroll*/
+
+.navbar.scroll {
+        background-color: rgb(255, 255, 255);
+        transition: 1s;
+        box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 992px) {
+        .container img {
+                display: block;
+                margin: 30px auto;
+        }
+        
+    } 

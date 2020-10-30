@@ -1,0 +1,218 @@
+/* graphical charter
+
+color : #c00000
+        #baa56f
+        #404040
+        
+        
+font-familly : - titre principaux : font-family: 'Noto Serif', serif;
+               - titre secondaire : font-family: 'Dosis', sans-serif;
+
+*/
+
+/*=======GENERAL========*/
+
+html {
+        scroll-behavior: smooth;
+}
+
+h1 {
+        font-family: 'Noto Serif', serif;    
+}
+
+h2, h3, h4, h5 {
+        font-family: 'Dosis', sans-serif; 
+}
+
+a {
+        text-decoration: none;
+        color: #000;
+        text-align: center;
+}
+
+/*=======HEADER=========*/
+
+/*promo*/
+
+.promo {
+        background-color: #c00000;
+        color: #fff;
+}
+
+.contain a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+}
+
+/*nav*/
+
+.navbar {
+        z-index: 2000;
+        transition: 2s;
+        box-shadow: 0 4px 2px -2px rgba(112, 112, 112, 0.3);
+}
+
+
+.navbar-brand {
+        display: block;
+        margin: auto;
+        width: 70px;
+}
+
+#title-logo {
+        font-size: 1.6em;
+        font-weight: 900;
+        color: #baa56f;
+        font-family: 'Noto Serif', serif;
+}
+
+.navbar-nav {
+        margin: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+        color: #c00000;
+
+}
+
+.nav-link {
+        text-decoration: none;
+        margin: 0 30px;
+        color: #c00000;
+        border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+        background-color: #c00000;
+        transition: 1s;
+}
+
+button {
+        margin-top: 20px;
+}
+
+.red-box {
+        background-color: #c00000;
+        color: #fff;
+        margin: auto;
+        padding: 10px 20px;
+        border-radius: 10px;
+}
+
+.red-box:hover {
+        background-color: none;
+        text-decoration: none;
+        color: #fff;
+}
+
+.link-social {
+        margin: 5px 10px;
+}
+
+
+
+/*fil d'ariane*/
+
+.fil-ariane {
+        text-align: center;
+}
+
+
+/*=======MAIN=========*/
+
+main h1 {
+        text-align: center;
+        font-weight: 900;
+        color: #baa56f;
+}
+
+
+.container-fluide h3{
+        font-size: 0.9em;
+        margin-left: 10%;
+}
+
+.container-fluide h3:after {
+        display: block;
+        height: 2px;
+        background-color: #767676;
+        width: 100%;
+        content: " ";
+        margin: 0 auto;
+        margin-top: 10px;    
+}
+
+
+
+.liste-categorie li {
+        list-style-type: none;
+         margin-left: 10%;
+}
+
+.col-md-4 {
+        margin-bottom: 60px;
+        text-align: center;
+}
+
+
+
+
+
+/*=======FOOTER=========*/
+
+footer {
+        box-shadow: 0 -2px 2px 2px rgba(112, 112, 112, 0.3);
+}
+
+footer .container {
+        margin-top: 60px;
+        padding-top: 15px;
+}
+
+.bloc-social-footer {
+        margin: auto;
+        width: 200px;
+        text-align: center;
+}
+
+.bloc-social-footer img {
+        display: inline-block;
+}
+
+.copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+}
+
+.bloc-logo-dore {
+        text-align: center;
+}
+
+.bloc-logo-dore img {
+        display: block;
+        margin: auto;
+}
+
+.bloc-logo-dore span {
+        color: #baa56f;
+        font-weight: bold;
+}
+
+
+
+
+/*CSS AVEC JS*/
+
+/*nav white scroll*/
+
+.navbar.scroll {
+        background-color: rgb(255, 255, 255);
+        transition: 1s;
+        box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
