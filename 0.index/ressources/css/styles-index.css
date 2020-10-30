@@ -328,5 +328,17 @@ footer .container {
                 width: 200px;
                 margin: 30px auto;
         }
+
+        .contain-personnalise {
+                margin-top: 60px;
+                padding: 60px 0px;
+        }
+        
+        .bloc-moufle-lucas img {
+                display: block;
+                width: 200px;
+                margin: 20px auto;
+        }
+        
           
 }

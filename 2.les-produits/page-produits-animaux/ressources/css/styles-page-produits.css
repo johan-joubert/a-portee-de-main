@@ -25,9 +25,10 @@ h2, h3, h4, h5 {
 }
 
 a {
+        text-decoration: none;
+        color: #000;
         text-align: center;
 }
-
 
 /*=======HEADER=========*/
 
@@ -38,9 +39,8 @@ a {
         color: #fff;
 }
 
-.promo a{
+.contain a{
         display: block;
-        padding: 5px;
         text-decoration: none;
         color: #fff;
 }
@@ -118,49 +118,41 @@ button {
         text-align: center;
 }
 
-.fil-ariane a {
-        text-decoration: none;
-        color: #000;
-}
-
 
 /*=======MAIN=========*/
 
-
-#main-title {
+main h1 {
         text-align: center;
         font-weight: 900;
         color: #baa56f;
-        margin-top: 40px;
-        margin-bottom: 40px;
 }
 
-main a {
+
+.container-fluide h3{
+        font-size: 0.9em;
+        margin-left: 10%;
+}
+
+.container-fluide h3:after {
         display: block;
-        width: 200px;
-        padding: 5px 20px;
+        height: 2px;
+        background-color: #767676;
+        width: 100%;
+        content: " ";
+        margin: 0 auto;
+        margin-top: 10px;    
+}
+
+
+
+.liste-categorie li {
+        list-style-type: none;
+         margin-left: 10%;
+}
+
+.col-md-4 {
+        margin-bottom: 60px;
         text-align: center;
-        text-decoration: none;
-        background-color: #c00000;
-        color: #fff;
-        margin: auto;
-        border-radius: 20px;
-        transition: 0.5s;
-}
-
-main a:hover {
-        text-decoration: none;
-        color: #baa56f;
-        transition: 0.5s;
-        transform: scale(1.1);
-}
-
-.contain-recycle {
-        margin-top: 100px;
-}
-
-.contain-recycle a {
-        background-color: transparent;
 }
 
 
@@ -223,19 +215,4 @@ footer .container {
         position: fixed;
         top: 0;
         width: 100%;
-}
-
-
-
-@media screen and (max-width: 992px) {
-
-        main a {
-                margin: 40px auto;
-        }
-        .team img{
-                margin: 40px auto;
-                width: 300px;
-                display: block;
-        }
-
-}
+    }
