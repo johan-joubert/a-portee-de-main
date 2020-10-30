@@ -145,9 +145,20 @@ main h1 {
 
 
 
+.liste-categorie, .liste-categorie2{
+        display: none;
+}
+
+
+
 .liste-categorie li {
         list-style-type: none;
          margin-left: 10%;
+}
+
+.liste-categorie2 li {
+        list-style-type: none;
+        margin-left: 10%;
 }
 
 .col-md-4 {
