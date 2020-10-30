@@ -137,9 +137,9 @@ main h1 {
         display: block;
         height: 2px;
         background-color: #767676;
-        width: 100%;
+        width: 50%;
         content: " ";
-        margin: 0 auto;
+        margin: 0;
         margin-top: 10px;    
 }
 
